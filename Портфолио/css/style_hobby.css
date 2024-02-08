@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'OpenSans Condensed-Regular';
+    src: url('../fonts/OpenSans_Condensed-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+     font-size: 20px;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.hobby-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hobby-info img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hobby-info hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #333;
+}
+
+.hobby-info h1 {
+    color: #333;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
